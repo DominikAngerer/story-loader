@@ -28,7 +28,7 @@
           return false;
         }
         jQuery.ajax({
-          url: 'https://api.storyblok.com/v1/cdn/stories/?token=' + this.schema.options[0].value + '&starts_with=' + this.schema.options[1].value + '/&is_startpage=false&time=' + Date.now(),
+          url: 'https://api.storyblok.com/v1/cdn/stories/?token=' + this.schema.options[0].value + '&starts_with=' + this.schema.options[1].value + '/&is_startpage=false&sort_by=name&time=' + Date.now(),
           success: (response) => {
             this.$set('data.loadedStories', response.stories);
           }
