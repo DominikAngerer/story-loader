@@ -28,3 +28,12 @@ npm run build
 ```
 
 For more information see the [docs for field types](https://www.storyblok.com/docs/Guides/Creating-a-field-type-plugin).
+
+## Configuration
+
+![Story Loader configuration](http://img2.storyblok.com/300x0/f/39898/654x1028/16eef925ac/storyloader-config.jpg)
+
+You can use the "Self" property so you won't have to add a global datasource to configure this plugin
+
+First Datasource Entry: `token`    
+Second Datasource Entry: `starts_with`
